@@ -22,7 +22,11 @@ Then you're done!
 There are many color themes for zsh prompt styles. Here I give my favorite one and the example screenshot is as follows.
 ![powerlevel10k screenshot](/assets/images/p10k.png)
 
-To install this theme, just clone the git repository as below and set `ZSH_THEME="powerlevel10k/powerlevel10k"` in your `~/.zshrc` file, if you are using oh-my-zsh.
+To install this theme, just clone the git repository as below 
+```console
+$ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+and set `ZSH_THEME="powerlevel10k/powerlevel10k"` in your `~/.zshrc` file, if you are using oh-my-zsh.
 ```shell
 ZSH_THEME="powerlevel10k/powerlevel10k" 
 ```

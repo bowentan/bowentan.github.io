@@ -2,7 +2,7 @@
 title: Awesome Bash tools
 category: practice
 tags: bash zsh command-tool
-date: 2022-07-24 13:25:00 +0800
+date: 2022-07-26 20:37:00 +0800
 ---
 
 # Oh my zsh
@@ -57,6 +57,18 @@ After installing, you can type `fzf` and then type some word to search for files
 ![fzf-s](/assets/images/fzf-s.png)
 
 For more details, please visit the [official site](https://github.com/junegunn/fzf).
+
+# zsh-z
+`zsh-z` is a Zsh port of `z` (GitHub [here](https://github.com/rupa/z)), which can remember the `cd` histories and quickly change the directory without typing the whole directory.
+![zsh-z](/assets/images/zsh-z.png)
+
+To install it via oh-my-zsh, run the following commands:
+```console
+$ git clone https://github.com/agkozak/zsh-z ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-z
+```
+and then add `zsh-z` to the `plugins` in `.zshrc`.
+
+For more information, visit [here](https://github.com/agkozak/zsh-z).
 
 # bat
 `bat` is an "advanced" version of `cat` with the feature that it can recognize the language used in the file and format the output with highlighting accordingly. 

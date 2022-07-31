@@ -2,7 +2,7 @@
 title: Awesome Bash tools
 category: practice
 tags: bash zsh command-tool
-date: 2022-07-26 20:37:00 +0800
+date: 2022-07-31 14:16:00 +0800
 ---
 
 # Oh my zsh
@@ -55,7 +55,7 @@ $ ~/.fzf/install
 ```
 and when the installation is complete, `~/.zshrc` will be added automatically to source the configuration fo `fzf` and you don't need to worry about it. If you want to use it as a `vim` plugin, you could add the following line to `~/.vimrc`, if you are using [vim-plug](https://github.com/junegunn/vim-plug).
 ```vim
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 ```
 After installing, you can type `fzf` and then type some word to search for files in current directory recursively   or `ctrl` + `r` to invoke bash history search mode as follows.
 ![fzf-s](/assets/images/fzf-s.png)

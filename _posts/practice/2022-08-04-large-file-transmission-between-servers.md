@@ -3,6 +3,7 @@ title: Large file transmission between severs
 category: practice
 tags: copy ssh compress transfer pigz tar
 toc: false
+date: 2022-08-04 19:46:00 +0800
 ---
 
 When it comes to the server management, especially involving multiple servers, sometime the large file transmission is needed. For example, you need to backup or transmit a directory with gigabytes or even terabytes of data to different servers.

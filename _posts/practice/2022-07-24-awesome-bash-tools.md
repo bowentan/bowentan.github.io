@@ -149,6 +149,5 @@ There are other impressive tools I am using and I list them here. If you are int
 3. [Thefuck](https://github.com/nvbn/thefuck)
 4. [GDB dashboard](https://github.com/cyrus-and/gdb-dashboard)
 5. Useful Zsh plugins:
-    1. zsh-syntax-highlighting: Syntax highlighting when working on terminal
-    2. zsh-autosuggestions: Command autosuggestion
-    3. zsh-z: Jump to previously visited directories without total path
+    1. [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting): Syntax highlighting when working on terminal
+    2. [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions): Command autosuggestion

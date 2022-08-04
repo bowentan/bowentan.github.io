@@ -35,7 +35,7 @@ This is a simple configuration including only one plugin `git` and a theme `robb
 
 My `.zshrc` including the plugins that I shared before is given as follows:
 ```zsh
-source /$HOME/.antigen.zsh
+source $HOME/.antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh

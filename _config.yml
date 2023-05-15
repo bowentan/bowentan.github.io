@@ -43,29 +43,40 @@ github_username:  bowentan
 # theme: minimal-mistakes-jekyll
 # remote_theme: "mmistakes/minimal-mistakes"
 remote_theme: "eecs485staff/primer-spec"
-minimal_mistakes_skin: dark
-# remote_minimal_mistakes_skin: dark
-markdown: kramdown
 plugins:
-  - jekyll-feed
-  - jekyll-include-cache
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-paginate-multiple
-  - jekyll-sitemap
-paginate_multiple:
-  - paginate: 5
-    paginate_path: "/leetcode/page:num"
-    sub_dir: "/leetcode"
-  - paginate: 5
-    paginate_path: "/challenge/page:num"
-    sub_dir: "/challenge"
-  - paginate: 5
-    paginate_path: "/practice/page:num"
-    sub_dir: "/practice"
-  - paginate: 5
-    paginate_path: "/project/page:num"
-    sub_dir: "/project"
+  - jekyll-remote-theme
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jemoji
+kramdown:
+  input: GFM
+readme_index:
+  remove_originals: true
+  with_frontmatter: true
+# minimal_mistakes_skin: dark
+# remote_minimal_mistakes_skin: dark
+# markdown: kramdown
+# plugins:
+#   - jekyll-feed
+#   - jekyll-include-cache
+#   - jekyll-gist
+#   - jekyll-paginate
+#   - jekyll-paginate-multiple
+#   - jekyll-sitemap
+# paginate_multiple:
+#   - paginate: 5
+#     paginate_path: "/leetcode/page:num"
+#     sub_dir: "/leetcode"
+#   - paginate: 5
+#     paginate_path: "/challenge/page:num"
+#     sub_dir: "/challenge"
+#   - paginate: 5
+#     paginate_path: "/practice/page:num"
+#     sub_dir: "/practice"
+#   - paginate: 5
+#     paginate_path: "/project/page:num"
+#     sub_dir: "/project"
 locale: en
 timezone: Hongkong
 

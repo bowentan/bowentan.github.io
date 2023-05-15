@@ -41,8 +41,8 @@ github_username:  bowentan
 
 # Build settings
 # theme: minimal-mistakes-jekyll
-remote_theme: "mmistakes/minimal-mistakes"
 # minimal_mistakes_skin: dark
+remote_theme: "mmistakes/minimal-mistakes"
 remote_minimal_mistakes_skin: dark
 markdown: kramdown
 plugins:
@@ -62,9 +62,9 @@ paginate_multiple:
   - paginate: 5
     paginate_path: "/practice/page:num"
     sub_dir: "/practice"
-  - paginate: 5
-    paginate_path: "/project/page:num"
-    sub_dir: "/project"
+  # - paginate: 5
+  #   paginate_path: "/project/page:num"
+  #   sub_dir: "/project"
 locale: en
 timezone: Hongkong
 

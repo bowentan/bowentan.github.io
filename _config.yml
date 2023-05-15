@@ -41,7 +41,7 @@ github_username:  bowentan
 
 # Build settings
 theme: minimal-mistakes-jekyll
-# remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: dark
 # remote_minimal_mistakes_skin: dark
 markdown: kramdown

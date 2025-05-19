@@ -1,0 +1,87 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+  - company:
+      name: BGI Shenzhen
+      url: "https://www.bgi.com/global"
+      location: Shenzhen, China
+      # logo: /images/sections/experiences/company3.jpg
+      # darkLogo: /images/sections/experiences/company3.jpg
+      # overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    positions:
+      - designation: Junior Software Developer (Internship)
+        start: July 2015
+        end: August 2015
+        responsibilities:
+          - |
+            **Web Development**: Collaborated on the development of the official website for BGI Forensics, enhancing the organization’s digital presence.
+          - |
+            **Data Analysis Tools**: Developed and integrated robust analysis tools for forensic and genetic data. Streamlined the data processing pipeline, thereby improving the overall workflow efficiency.
+
+  - company:
+      name: City University of Hong Kong
+      url: "https://www.cityu.edu.hk/"
+      location: Hong Kong, China
+      # logo: /images/sections/experiences/company3.jpg
+      # darkLogo: /images/sections/experiences/company3.jpg
+      # overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    positions:
+      - designation: Research Assistant
+        start: August 2016
+        end: August 2018
+        responsibilities:
+          - |
+            **Bioinformatics Tool Development**: Designed and developed tools for identifying potential short tandem repeat (STR) loci for individual identification and paternity testing, providing 99.9999% evidence in data.
+          - |
+            **Performance Optimization**: Refactored and enhanced existing bioinformatics tools such as tools for fastq cleaning and preprocessing, primarily using C/C++ and multithreading, resulting in at least 2x computational performance and reliability.
+          - |
+            **Lab Resource Administration**: Managed the laboratory’s computing environment, including the installation and upkeep of computing clusters, thereby simplifying access to essential software and analytical tools.
+
+  - company:
+      name: City University of Hong Kong
+      url: "https://www.cityu.edu.hk/"
+      location: Hong Kong, China
+      # logo: /images/sections/experiences/cityu-logo.png
+      # darkLogo: /images/sections/experiences/
+      # overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    positions:
+      - designation: Research Assistant
+        start: November 2022
+        end: April 2024
+        responsibilities:
+          - |
+            **Algorithm Development**: Designed and implemented innovative clustering algorithms for topologically associated domains (TADs) using dynamic programming and graph theory, enhancing the efficiency of existing TAD-calling tools to guarantee that the optimal detections of TADs were obtained so that the found TADs were meaningful in genomics.
+          - |
+            **Computing Resource Management**: Configured and maintained a SLURM cluster with three servers with totally 352 CPU cores and 3T memory for more than 30 students and more than five platforms in the lab, providing extensive reliability and robustness when using the resources and optimizing high-performance computing resources to facilitate intensive computational tasks by diverse users and platforms for development and deployment.
+
+  - company:
+      name: The Hong Kong Polytechnic University
+      url: "https://www.polyu.edu.hk/"
+      location: Hong Kong, China
+      # logo: /images/sections/experiences/polyu-logo.png
+      # darkLogo: /images/sections/experiences/polyu-logo-dark.jpg
+      # overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    positions:
+      - designation: Project Associate
+        start: May 2024
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+          - |
+            **Backend Development**: Engineered the core architecture of a new admissions system using NestJS and MongoDB. Developed comprehensive RESTful API development for seamless application processing, robust authentication and authorization, as well as dynamic PDF generation and merging from templates, ensuring prompt responses and enhanced user satisfaction.
+          - |
+            The innovative system consolidates the entire application process, including student applications, supervisor nominations, and admission works for clerical staffs, into a single online platform. It drastically reduces most of the time and effort spent on communications among students, various departments, colleges, and supporting units.
+          - |
+            **CI/CD & Deployment Automation**: Streamlined deployment by automating CI/CD pipelines via GitLab CI/CD and deploying containerized applications on Openshift, significantly reducing manual effort.
+          - |
+            **Version Release Management**: Designed and implemented a robust version release workflow integrating Git and GitLab CI/CD. Automated changelog generation and managed release processes across multiple branches and repositories.
+          - |
+            **Data Migration**: Developed resilient data migration scripts to ensure a seamless transition from legacy systems to the new platform.

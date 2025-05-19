@@ -1,0 +1,130 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+  - name: All
+    filter: "all"
+  - name: Basic
+    filter: "basic"
+  - name: Language
+    filter: "language"
+  - name: DevOps
+    filter: "devops"
+  - name: Others
+    filter: "others"
+
+skills:
+  - name: Linux
+    logo: /images/sections/skills/linux.svg
+    summary: Using Linux or Unix-like systems as the main working environment. Generally using NeoVim as the developing tool as well as editor.
+    categories: ["basic"]
+
+  - name: Git
+    logo: /images/sections/skills/git.svg
+    summary: Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab.
+    categories: ["basic"]
+
+  - name: Web development
+    categories: ["basic"]
+    logo: /images/sections/skills/html.svg
+    summary: Experienced in developing with NestJS (TypeScript/JavaScript). Limited experience in Django (Python).
+
+  - name: Software development
+    categories: ["basic"]
+    logo: /images/sections/skills/app.svg
+    summary: Experienced in developing software/applications with Python, C/C++, Lua, R, Julia and Java. Limited experience in Golang and Rust. Keep learning Golang and Rust.
+
+  - name: Database management
+    categories: ["basic"]
+    logo: /images/sections/skills/sql.svg
+    summary: Experienced in working with SQL like MySQL/PostgreSQL and NoSQL like MongoDB/Redis.
+
+  - name: Data analysis
+    categories: ["basic"]
+    logo: /images/sections/skills/data.svg
+    summary: Experienced in data analysis using various tools including Python, R, Julia.
+
+  - name: Docker
+    logo: /images/sections/skills/docker.svg
+    summary: Developed and tested most of the applications as dockerized container. Have experience with multi-stage, multi-arch build process.
+    categories: ["devops"]
+    # url: "https://www.docker.com/"
+
+  - name: Kubernetes
+    logo: /images/sections/skills/kubernetes.svg
+    summary: Experienced with developing, testing and deploying in OpenShift platform. Familiar with webside and CLI of OpenShift.
+    categories: ["devops"]
+
+  - name: CI/CD
+    logo: /images/sections/skills/ci-cd.svg
+    summary: Experienced in designing and develping CI/CD pipelines in GitHub Actions and Gitlab CI/CD. Have designed and implemented a workflow for version releasing in team.
+    categories: ["devops"]
+
+  - name: Shell/Bash
+    categories: ["basic", "language"]
+    summary: Experienced in writing automation scripts with shell/bash. Using fish (friendly interactive shell) as my terminal shell.
+    logo: /images/sections/skills/bash.svg
+
+  - name: Python
+    categories: ["language"]
+    logo: /images/sections/skills/python.svg
+    summary: Experienced with Python in writing CLI applications, data analysis tools and various packages. Experienced with scientific packages such as NumPy, Pandas/Polar, Scikit-learn, Matplotlib, etc..
+
+  - name: C/C++
+    categories: ["language"]
+    logo: /images/sections/skills/cpp3.svg
+    summary: Experienced in writing CLI applications. Writed a tool to process FASTQ data with multithreads for the lab and implemented haplotyping algorithm using C++.
+
+  - name: TypeScript/JavaScript
+    categories: ["language"]
+    logo: /images/sections/skills/typescript.svg
+    summary: Experienced in web development with NestJS. Developed one self-used chrome extension to automatically copy expected URLs in the page.
+
+  - name: R
+    categories: ["language"]
+    logo: /images/sections/skills/r.svg
+    summary: Experienced in creating plots with ggplot2, processing data with dplyr/tidyverse.
+
+  - name: Julia
+    categories: ["language"]
+    logo: /images/sections/skills/julia.svg
+    summary: Experienced in implementing algorithms using Julia as the alternative to Matlab.
+
+  - name: Lua
+    categories: ["language"]
+    logo: /images/sections/skills/lua.svg
+    summary: Experienced in developing NeoVim plugins using Lua. Contributed in several plugins.
+
+  - name: Golang
+    categories: ["language"]
+    logo: /images/sections/skills/go.svg
+    summary: Limited experience and keep learning.
+
+  - name: Rust
+    categories: ["language"]
+    logo: /images/sections/skills/rust.svg
+    summary: Limited experience and keep learning.
+
+  - name: Chinese
+    categories: ["others"]
+    logo: /images/sections/skills/zh.svg
+    summary: Native speaker.
+
+  - name: English
+    categories: ["others"]
+    logo: /images/sections/skills/en.svg
+    summary: Proficient level.
+
+  - name: Japanese
+    categories: ["others"]
+    logo: /images/sections/skills/jp.svg
+    summary: Intermediate level in reading and writing.

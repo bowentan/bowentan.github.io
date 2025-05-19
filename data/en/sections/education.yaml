@@ -1,0 +1,174 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+  - name: B.Sc. in Computing Mathematics
+    icon: fa-graduation-cap
+    timeframe: September 2012 - July 2016
+    institution:
+      name: City University of Hong Kong
+      url: "https://www.cityu.edu.hk/"
+      # darkLogo: /images/sections/education/university.jpg
+    grade: #(optional)
+      scale: CGPA
+      achieved: 4.02
+      outOf: 4.3
+    takenCourses: #(optional)
+      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+      showGrades: true
+      collapseAfter: 3
+      courses:
+        - name: Enhanced Calculus and Linear Algebra I
+          achieved: 4.0
+          outOf: 4.3
+        - name: Enhanced Calculus and Linear Algebra II
+          achieved: 4.3
+          outOf: 4.3
+        - name: Linear Algebra
+          achieved: 4.0
+          outOf: 4.3
+        - name: Discrete Mathematics
+          achieved: 4.0
+          outOf: 4.3
+        - name: Probability and Statistics
+          achieved: 4.3
+          outOf: 4.3
+        - name: Computing Mathematics Laboratory
+          achieved: 4.0
+          outOf: 4.3
+        - name: Multi-variable Calculus
+          achieved: 3.7
+          outOf: 4.3
+        - name: Ordinary Differential Equations
+          achieved: 4.0
+          outOf: 4.3
+        - name: Partial Differential Equations
+          achieved: 4.0
+          outOf: 4.3
+        - name: Elementary Numerical Methods
+          achieved: 4.3
+          outOf: 4.3
+        - name: Numerical Methods for Differential Equations
+          achieved: 4.3
+          outOf: 4.3
+        - name: Introduction to Optimization
+          achieved: 4.3
+          outOf: 4.3
+        - name: Complex Analysis
+          achieved: 4.3
+          outOf: 4.3
+        - name: Applied Statistics
+          achieved: 4.3
+          outOf: 4.3
+        - name: Analysis
+          achieved: 4.3
+          outOf: 4.3
+        - name: Applied Mathematics Laboratory
+          achieved: 4.0
+          outOf: 4.3
+        - name: Introduction to Actuarial Science
+          achieved: 4.0
+          outOf: 4.3
+        - name: Introduction to Computer Studies
+          achieved: 4.3
+          outOf: 4.3
+        - name: Fundamentals of Internet Applications Development
+          achieved: 4.0
+          outOf: 4.3
+        - name: Computer Programming
+          achieved: 4.3
+          outOf: 4.3
+        - name: Java Programming
+          achieved: 4.0
+          outOf: 4.3
+        - name: Data Structures and Data Management
+          achieved: 4.0
+          outOf: 4.3
+        - name: Computer Networks
+          achieved: 4.3
+          outOf: 4.3
+        - name: Database Systems
+          achieved: 4.0
+          outOf: 4.3
+        - name: Multimodal Interface Design
+          achieved: 4.0
+          outOf: 4.3
+        - name: Logic Circuit Design
+          achieved: 3.3
+          outOf: 4.3
+        - name: General Physics I
+          achieved: 4.3
+          outOf: 4.3
+        - name: Chemistry
+          achieved: 4.3
+          outOf: 4.3
+        - name: Economics I
+          achieved: 4.3
+          outOf: 4.3
+        - name: "Everyday Physics: Its Impact on You and Society"
+          achieved: 3.7
+          outOf: 4.3
+        - name: Interdisiplinary Research for Smart Professionals
+          achieved: 4.0
+          outOf: 4.3
+        - name: Navigating Risk
+          achieved: 4.3
+          outOf: 4.3
+        - name: Computer-Aided Visual Design & Electronic Arts - Programing with Image, Animation & Interaction"
+          achieved: 4.0
+          outOf: 4.3
+        - name: Understanding Uncertainty and Statistical Reasoning
+          achieved: 3.7
+          outOf: 4.3
+        - name: The Art and Science of Data
+          achieved: 4.0
+          outOf: 4.3
+    publications: #(optional)
+      - title: Search for More Effective Microsatellite Markers for Forensics With Next-Generation Sequencing
+        url: "https://doi.org/10.1109/tnb.2017.2712795"
+
+  - name: Ph.D in Computer Science
+    icon: fa-microscope
+    timeframe: September 2018 - Present
+    institution:
+      name: City University of Hong Kong
+      url: "https://www.cityu.edu.hk/"
+      # logo: /images/sections/education/tech_college.png
+      # darkLogo: /images/sections/education/tech_college.png
+    grade: #(optional)
+      scale: CGPA
+      achieved: 4.0
+      outOf: 4.3
+    takenCourses:
+      showGrades: true
+      collapseAfter: 5
+      courses:
+        - name: Data Warehousing and Data Mining
+          achieved: 4.0
+          outOf: 4.3
+        - name: "Machine Learning: Principles and Practice"
+          achieved: Pass
+          outOf: Pass/Fail
+        - name: Computer Networks and Internets
+          achieved: 4.0
+          outOf: 4.3
+        - name: Comprehensive Studies in Selected Topics in Computer Science
+          achieved: 4.0
+          outOf: 4.3
+    publications: #(optional)
+      - title: "CeiTEA: Adaptive Hierarchical Clustering of Single Cells with Topological Entropy"
+        url: "https://doi.org/10.1002/advs.202503539"
+      - title: "CNAHap: a germline haplotyping method using tumor allele-specific copy number alteration (Accepted by ISBRA 2025)"
+        # url: "#"
+      - title: "OmicsSankey: Crossing Reduction of Sankey Diagram on Omics Data (Submitted to ICIBM 2025)"
+        # url: "#"
+      - title: "A novel forensic panel of 186-plex SNPs and 123-plex STR loci based on massively parallel sequencing"
+        url: "https://doi.org/10.1007/s00414-020-02403-z"

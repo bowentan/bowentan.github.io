@@ -1,1 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bowen's Homepage</title><link>https://bowentan.github.io/</link><description>Recent content on Bowen's Homepage</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 08 Jun 2010 08:06:25 +0600</lastBuildDate><atom:link href="https://bowentan.github.io/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bowen's Homepage</title><link>https://bowentan.github.io/</link><description>Recent content on Bowen's Homepage</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 08 Jun 2010 08:06:25 +0600</lastBuildDate><atom:link href="https://bowentan.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Tree</title><link>https://bowentan.github.io/notes/algos/tree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bowentan.github.io/notes/algos/tree/</guid><description>&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Breadth-First Traversal (BFT)&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>Also known as &lt;em>level-order&lt;/em> traversal when applied to trees.&lt;/p>
+&lt;p>It starts at a node and explores all its immediate &lt;em>neighbors&lt;/em> before moving on to child nodes.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Depth-First Traversal (DFT)&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>Also known as &lt;em>depth-first search&lt;/em>.&lt;/p>
+&lt;p>It starts at a node and explores as for as possible along one branch before backtracking to other branches.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Preorder&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>Visit first root and then children.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>preorder(node):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> if node is null:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> return
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> visit(node)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> preorder(node.left)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> preorder(node.right)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Inorder&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>Visit first left child, then root, finally right child. Put root &lt;em>in-between&lt;/em> children.&lt;/p></description></item></channel></rss>
